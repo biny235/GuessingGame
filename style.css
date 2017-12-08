@@ -1,0 +1,62 @@
+
+body{
+  background-image: url("numbers.jpg");
+
+}
+#app{
+  background-color: rgba(256,256,256,0.5);
+}
+.jumbotron{
+  background-color: rgba(256,256,256,0) !important;
+}
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: auto;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    margin-left: -15px;
+}
+
+#guess{
+  display: inline;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 60;
+  padding: 0 25px;
+
+}
+#player-input{
+  border-radius: 50%;
+  width:160px;
+  font-size:80px;
+  height: 160px;
+  text-align: center;
+}
+#submit{
+  border-radius: 50%;
+  height: 50px;
+  POSITION: ABSOLUTE;
+  TOP: 330px;
+  right: 42%;
+}
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  margin-right: auto;
+}
+.footer-pad{
+  padding: 10px 0 0 0;
+}
